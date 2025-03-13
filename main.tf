@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 # Resource group
-resource "azurerm_resource_groupria" "rg" {
-  name     = "microservices-rg"
+resource "azurerm_resource_group" "rg" {
+  name     = "devsecops-rg-ria"
   location = "East US"
 }
